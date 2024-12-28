@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script_Main.js"></script>
+    
+</head>
+    
+<body >
+    
+    <div class="container-Principal">
+
+        <div class="container-calculadora">
+            <input id="valor_1"  type="text" size="15">
+            <input id="valor_2"  type="text" size="15">
+            <button class="bntX" onclick="calcular('valor_1','valor_2')">〓</button>
+           
+        </div>
+        
+        <div class="container-calculadora">
+            <button class="bntX" onclick="addsOne()">➕</button>
+            <input id="id-resultado"  type="text" size="15">  
+        </div>
+
+
+        <div class="container-lista">
+            <p id="id-lista">--</p> 
+            <p id="id-total">--</p> 
+            
+            
+        </div>
+   
+
+
+    </div>
+
+
+</body>
+</html>
